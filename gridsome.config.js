@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'Ondolin',
+  titleTemplate: "%s",
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
@@ -13,7 +14,7 @@ module.exports = {
         tailwindConfig: 'tailwind.config.js',
         purgeConfig: {},
         presetEnvConfig: {},
-        shouldPurge: false,
+        shouldPurge: true,
         shouldImport: false,
         shouldTimeTravel: false
       }
