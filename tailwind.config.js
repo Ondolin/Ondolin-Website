@@ -16,6 +16,9 @@ module.exports = {
         "background": "#2E294E",
         "accent": "#F05D23"
       },
+      zIndex: {
+        "-10": "-10"
+      },
       textColor: {
         "primary": "#84DD63",
         "primary-dark": "#6BAA75",
