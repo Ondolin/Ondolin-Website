@@ -1,11 +1,6 @@
 <template>
   <Layout>
     <div class="h-screen w-screen flex justify-center items-center">
-
-      <NavBar />
-
-      <WaveAnimation />
-
       <div class="lg:w-1/2 m-10 text-white">
         <div>
           <p class="font-light text-3xl block">
@@ -23,11 +18,7 @@
 </template>
 
 <script>
-  import WaveAnimation from "../components/WaveAnimation";
-  import NavBar from "../components/NavBar";
-
   export default {
-    components: {WaveAnimation, NavBar},
     metaInfo: {
       title: "Ondolin"
     }

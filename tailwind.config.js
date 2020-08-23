@@ -14,6 +14,7 @@ module.exports = {
         "primary-dark": "#6BAA75",
         "primary-light": "#CBFF4D",
         "background": "#2E294E",
+        "background-dark": "#292446",
         "accent": "#F05D23"
       },
       zIndex: {
@@ -23,7 +24,7 @@ module.exports = {
         "primary": "#84DD63",
         "primary-dark": "#6BAA75",
         "primary-light": "#CBFF4D",
-          "background": "#2E294E",
+        "background": "#2E294E",
         "accent": "#F05D23"
       }
     },
